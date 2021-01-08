@@ -1,9 +1,9 @@
-import { Module } from '@nestjs/common';
+import { HttpModule, Module } from '@nestjs/common';
 import { CandidatesController } from './controllers/candidates';
 import { CandidatesService } from './services/candidates';
 
 @Module({
-  imports: [],
+  imports: [HttpModule],
   controllers: [CandidatesController],
   providers: [CandidatesService],
 })
