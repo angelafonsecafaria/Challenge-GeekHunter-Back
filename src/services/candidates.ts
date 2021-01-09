@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { CandidatesDetails } from 'src/util/interfaces/candidates';
-import { Candidates } from 'src/data/candidates';
+import { CandidatesDetails } from '../util/interfaces/candidates';
+import { Candidates } from '../data/candidates';
 
 @Injectable()
 export class CandidatesService {

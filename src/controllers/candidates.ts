@@ -1,6 +1,6 @@
 import { Get, Controller } from '@nestjs/common';
-import { CandidatesService } from 'src/services/candidates';
-import { CandidatesDetails } from 'src/util/interfaces/candidates';
+import { CandidatesService } from '../services/candidates';
+import { CandidatesDetails } from '../util/interfaces/candidates';
 
 @Controller('candidates')
 export class CandidatesController {
