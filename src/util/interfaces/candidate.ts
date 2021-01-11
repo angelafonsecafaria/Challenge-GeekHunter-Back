@@ -1,4 +1,4 @@
-export class CandidatesDetails {
+export class CandidateDetails {
     readonly id: number;
     readonly city: string;
     readonly experience: string;
