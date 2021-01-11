@@ -1,4 +1,4 @@
-export const Candidates = {
+{
     "candidates": [
         {
             "id": 31562,
@@ -4863,6 +4863,52 @@ export const Candidates = {
                     "is_main_tech": false
                 }
             ]
+        }
+    ],
+    "jobs": [
+        {
+            "id": 33922,
+            "city": "São Paulo - SP",
+            "technologies": [
+                null,
+                null
+            ],
+            "experience": "2-4 years"
+        },
+        {
+            "id": 33916,
+            "city": "Rio de Janeiro - RJ",
+            "technologies": [
+                null,
+                null
+            ],
+            "experience": "0-2 years"
+        },
+        {
+            "id": 33870,
+            "city": "Remote",
+            "technologies": [
+                null
+            ],
+            "experience": "2-4 years"
+        },
+        {
+            "id": 33869,
+            "city": "Remote",
+            "technologies": [
+                null,
+                null
+            ],
+            "experience": "2-4 years"
+        },
+        {
+            "id": 33868,
+            "city": "Curitiba - PR",
+            "technologies": [
+                null,
+                null
+            ],
+            "experience": "0-2 years"
         }
     ]
 }

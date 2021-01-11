@@ -7,7 +7,7 @@ export class CandidatesController {
   constructor(private readonly candidatesService: CandidatesService) {}
 
   @Get()
-  async findAll(): Promise<CandidatesDetails[]> {
-    return this.candidatesService.findAll();
+  async findAll(): Promise<Array<CandidatesDetails>> {
+    return this.candidatesService.getAllCandidates();
   }
 }

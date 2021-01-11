@@ -1,12 +1,12 @@
 import { Injectable } from '@nestjs/common';
 import { CandidatesDetails } from '../util/interfaces/candidates';
-import { Candidates } from '../data/candidates';
+import data from '../data/code_challenge.json';
 
 @Injectable()
 export class CandidatesService {
-    private readonly candidates: CandidatesDetails[] = Candidates.candidates;
+    private readonly candidates: Array<CandidatesDetails> = data.candidates;
 
-    findAll(): CandidatesDetails[] {
+    async getAllCandidates(): Promise<CandidatesDetails[]>  {
         return this.candidates;
     }
 }
